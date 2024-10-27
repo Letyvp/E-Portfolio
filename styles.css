@@ -17,7 +17,7 @@ li {
 }
 
 .orange {
-    color: orangered;
+    color: orangered !important; 
 }
 
 section {
@@ -135,7 +135,7 @@ input:focus, textarea:focus {
 }
 
 .dark-theme .title,
-.dark-theme .section-title,
+.dark-theme .section__title,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
